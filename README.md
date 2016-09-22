@@ -1,2 +1,2 @@
-# https://zhongjianru.github.io/resume/
-Kinyu Chung's CV
+# Kinyu Chung's CV
+https://zhongjianru.github.io/resume/
