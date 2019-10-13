@@ -330,3 +330,8 @@ ul li {
     cursor: pointer;
 
 }
+
+span.label-value a {
+    text-decoration: none;
+    color: #666
+}
