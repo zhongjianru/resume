@@ -13,6 +13,8 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
+    $('.basicinfo').load("basicinfo.html"); //编辑控件失效了
+
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');

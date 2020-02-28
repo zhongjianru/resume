@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <link rel="import" href="basicinfo.html">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
     <script src="static/js/script.js"></script>
@@ -14,116 +15,8 @@
 
 <body>
 <div class="container" id="cv">
-    <div class="side">
-        <div class="me">
-            <div class="portrait" style="background-image:url(static/image/portrait.jpg)"></div>
-            <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="avatar-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div>
-            <h1 id="username" font-family="Fantasy">
-                <!--Kinyu Chung-->
-                钟健茹
-            </h1>
-            <h4 id="persona-tag">数据仓库开发</h4>
-        </div>
-        <div class="profile info-unit">
-            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
-            <hr>
-            <ul class="info-list">
-                <li>
-                    <label class="left-label">姓名</label><span class="label-value">钟健茹</span></li>
-                <li>
-                    <label class="left-label">学历</label><span class="label-value">本科</span></li>
-                <li>
-                    <label class="left-label">毕业院校</label><span class="label-value">华南师范大学</span></li>
-                <li>
-                    <label class="left-label">专业名称</label><span class="label-value">计算机科学与技术</span></li>
-                <li>
-                    <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
-            </ul>
-        </div>
-        <div class="contact info-unit">
-            <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
-            <hr>
-            <ul class="info-list">
-                <li>
-                    <label class="left-label">手机</label><span class="label-value">15603006502</span>
-                </li>
-                <li>
-                    <label class="left-label">邮箱</label><span class="label-value">459251261@qq.com</span>
-                </li>
-                <li>
-                    <label class="left-label">在线简历</label><span class="label-value"><a href="https://zhongjianru.github.io/resume/" target="_blank">https://zhongjianru.github.io/resume/</a></span>
-                </li>
-                <li>
-                    <label class="left-label">Github</label><span class="label-value"><a href="github.com/zhongjianru" target="_blank">github.com/zhongjianru</a></span>
-                </li>
-            </ul>
-        </div>
-        <div class="skill info-unit">
-            <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技术栈</span></h2>
-            <hr>
-            <ul class="progress-list">
-                <li>
-                    <label class="left-label">ORACLE</label>
-                    <progress value="60" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Java</label>
-                    <progress value="50" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Python</label>
-                    <progress value="40" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Javascript</label>
-                    <progress value="40" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Git</label>
-                    <progress value="30" max="100"></progress>
-                </li>
-                <li>
-                    <label class="left-label">Excel</label>
-                    <progress value="40" max="100"></progress>
-                </li>
-            </ul>
-        </div>
-        <div class="stack info-unit">
-            <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">专业证书</span></h2>
-            <hr>
-            <ul class="stack-list">
-                <li>
-                    <label class="left-label">外语水平</label><span
-                        class="label-value">大学英语六级</span>
-                </li>
-                <li>
-                    <label class="left-label">从业资格</label><span class="label-value">证券业从业人员资格</span>
-                    <label class="left-label">       </label><span class="label-value">基金业从业人员资格</span>
-                    <label class="left-label">       </label><span class="label-value">银行业从业人员资格</span>
-                </li>
-            </ul>
-        </div>
+    <div class="basicinfo"></div>
 
-        <div class="code info-unit">
-            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
-            <hr>
-            <div class="weixin">
-                <img src="static/image/wx.jpg" alt="">
-
-            </div>
-        </div>
-        <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-            <h3>请输入图片URL地址：</h3>
-            <br/>
-            <input type="text" id="weixin-url">
-            <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-        </div>
-    </div>
     <div class="main">
         <div class="work info-unit right-list">
             <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
@@ -132,14 +25,14 @@
                 <li>
                     <h3>易方达基金管理有限公司（2016年11月至今）</h3>
                     <p><b>所属部门：</b>系统研发部 - 市场数据中心</p>
-                    <p><b>任职职位：</b>数据库开发工程师</p>
+                    <p><b>任职职位：</b>数据开发工程师</p>
                     <p><b>工作内容：</b>
-                    <p>1、ORACLE数据库存储过程开发，通过ETL系统对上游ta系统、直销系统和投研系统下发的数据进行数据采集、清洗与校验，形成应用层数据，最后分发给下游业务系统使用（数据流：贴源层->ODS层->DM层->应用层）</p>
-                    <p>2、根据业务需求进行数据仓库建设，完成需求分析和数据模型、表结构、索引、分区等设计，制定ETL相关设计方案和开发计划，进行存储过程和脚本开发，并进行开发自测、配合测试人员推进业务测试，在上线后继续监测项目运行情况，并按实际情况进行维护和优化，确保项目平稳高效运行</p>
-                    <p>3、根据监管部门需要，与业务人员沟通、确认需求口径与业务规则，进行监管报表取数脚本开发，核对并提供监管数据，并进行存储过程开发，供ETL系统调用并生成所需监管数据</p>
-                    <p>4、根据公司业务分析需要，结合信息系统与数据的特点，提供公司内部所需的业务分析数据，协助业务人员进行数据分析，对业务口径进行确认和解释；总结常用业务指标，抽象出可复用的数据模型，实现不同业务指标的快速查询、数据统计和报表展现；根据业务人员反馈的数据不一致等情况，定位并解决问题</p>
+                    <p>1、ORACLE相关开发工作：通过ETL系统对上游ta系统、直销系统和投研系统下发的数据进行数据采集、清洗与校验，形成应用层数据，最后分发给下游业务系统使用（数据流：贴源层->ODS层->DM层->应用层）</p>
+                    <p>2、数据仓库建设，完成需求分析和数据模型、表结构、索引、分区等设计，制定ETL相关同步方案和开发计划，按时推进开发进度并进行开发自测、配合推进开发测试和业务测试；上线后继续监测项目运行情况，并按实际情况进行维护和优化，确保项目平稳高效运行</p>
+                    <p>3、根据监管要求，进行监管报表取数脚本开发，核对并提供监管数据，后续进行定期报表固化开发，供ETL系统定期调用并生成所需报表</p>
+                    <p>4、根据公司业务分析需要，提供所需数据并对数据口径和业务规则进行确认和解释；总结常用业务指标，抽象出可复用的数据模型，实现不同业务指标的快速查询、数据统计和报表展现；根据业务人员反馈的数据不一致等情况，定位并解决问题</p>
                     <p>5、对接各个业务系统，进行SQL脚本开发与性能调优，如数据服务平台的报表查询脚本开发、业务提醒平台的提醒实例脚本开发、ESB接口的查询脚本开发</p>
-                    <p>6、从ORACLE向星环大数据平台迁移数据仓库相关表结构和存储过程，创建HIVE ORC表并进行存储过程改造和测试，使其能在星环Inceptor（基于Spark的分析引擎）上正常工作；针对现有数据仓库，结合目前数据仓库运行效率、使用情况和现存问题，进行大数据平台数据仓库重构</p>
+                    <p>6、星环大数据平台相关开发工作：数仓迁移及重构、灵活自助分析项目</p>
                 </li>
             </ul>
         </div>
@@ -148,7 +41,7 @@
             <hr>
             <ul class="experience-list">
                 <li>
-                    <h3>客户标签（背景、渠道、交易、保有、费用）</h3>
+                    <h3>客户标签（背景、渠道、交易、保有、费用主题）</h3>
                 </li>
                 <li>
                     <h3>数据集市（公募集市、机构集市、产品集市、KPI集市）</h3>
@@ -157,26 +50,25 @@
                     <h3>首只开放式基金持有人营销活动</h3>
                 </li>
                 <li>
-                    <h3>客户画像、基金购买预测模型</h3>
+                    <h3>贵宾客户年度账单项目</h3>
+                </li>
+                <li>
+                    <h3>基金持有人客户画像、基金购买预测模型</h3>
                 </li>
                 <li>
                     <h3>基金定投测算、货转债客户盈利情况测算</h3>
                 </li>
                 <li>
+                    <h3>金融机构资产管理产品统计报表、金融机构反洗钱统计报表、互金渠道销售适当性统计报表</h3>
+                </li>
+                <li>
                     <h3>ESB客户收益接口、单位持仓成本接口</h3>
                 </li>
                 <li>
-                    <h3>金融机构资产管理产品统计报表、反洗钱统计报表</h3>
+                    <h3>星环大数据平台数据仓库迁移及重构</h3>
                 </li>
                 <li>
-                    <h3>大数据平台数据仓库重构</h3>
-                </li>
-                <li>
-                    <h3>ORACLE->星环大数据平台代码迁移</h3>
-                </li>
-                <li>
-                    <h3>星环大数据平台灵活自主分析项目</h3>
-                    <p>提取常用业务分析指标，整合客户开户、持仓、交易、收益、费用贡献等常用业务数据，在星环大数据平台上进行计算，并对接到业务系统进行报表展现，供业务人员在系统上进行灵活分析</p>
+                    <h3>星环大数据平台灵活自助分析项目</h3>
                 </li>
             </ul>
         </div>
@@ -214,6 +106,69 @@
             </ul>
         </div>
     </div>
+</div>
+
+<div class="container" id="cv_more" style="margin-top: 2px">
+    <div class="basicinfo"></div>
+
+    <div class="main">
+        <div class="project info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">主要项目</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>客户标签（背景、渠道、交易、保有、费用主题）</h3>
+                    <p>主要用于支持日常营销活动，支撑营销管理平台筛选高净值客户进行精准营销</p>
+                    <p>一级标签：以客户号为主键，聚焦高稳定性、高频使用标签，采用多表对接模式</p>
+                    <p>二级标签：以客户号+主题为主键，支持枚举类标签的自动拓展，应对特殊业务场景</p>
+                </li>
+                <li>
+                    <h3>数据集市（公募集市、机构集市、产品集市、KPI集市）</h3>
+                    <p>公募集市：汇总到基金产品、客户类型、渠道、地域等维度的交易、保有规模数据</p>
+                    <p>机构集市：机构客户开户、交易、保有等数据子集，数据源为TA系统、投研系统</p>
+                    <p>产品集市：基金产品的基本信息、管理信息、管理费率等基础数据整合与清洗</p>
+                    <p>KPI集市：根据客户归属地和交易保有规模，进行销售员绩效考核</p>
+                </li>
+                <li>
+                    <h3>首只开放式基金持有人营销活动</h3>
+                    <p>由客销部拟定营销活动规则，与电商组协作开发，落地符合条件的目标客户持仓规模、持仓时间等数据，供电商组调用接口返回，并记录客户参与活动时间，计算客户参与次序等情况，客销部后续发放奖品时参考</p>
+                </li>
+                <li>
+                    <h3>贵宾客户年度账单项目</h3>
+                    <p>由客销部拟定账单展示项目与数据口径，与电商组协作开发，落地集团贵宾客户过去一年中的客户收益及收益率、交易次数、交易规模、保有规模等数据，供电商组调用接口后返回所需数据，在网页/微信端展示贵宾客户年度账单</p>
+                </li>
+                <li>
+                    <h3>基金持有人客户画像、基金购买预测模型</h3>
+                    <p>由客销部拟定客户分析维度，按照客户年龄、性别、归属地、持有期、风险等级、收益及收益率、交易规模、保有规模、费用贡献等不同维度分析客户群体，并进行归因分析，预测客户未来的交易行为</p>
+                </li>
+                <li>
+                    <h3>基金定投盈利情况测算、货转债客户盈利情况测算</h3>
+                    <p>由客销部拟定测算规则与目标客户，根据目标客户已有的交易或持仓等行为，测算在不同市场点位或不同产品的情况下，客户的收益情况，并与原有收益情况对比，分析差异原因</p>
+                </li>
+                <li>
+                    <h3>金融机构资产管理产品统计报表、金融机构反洗钱统计报表、互金渠道销售适当性统计报表</h3>
+                    <p>根据监管部门要求，向数据部提供按照基金类型、客户类型、客户所在地等维度划分的保有、交易、分红规模等资管产品统计数据，并与公司核算数据核对</p>
+                    <p>根据监管部门要求，向监察部提供客户登记资料不合规情况、各类客户保有规模、可疑交易规模等反洗钱相关数据</p>
+                    <p>根据监管部门要求，向互金部提供客户交易与风险测评等级不匹配的规模、客户问卷缺失情况等销售适当性相关数据</p>
+                </li>
+                <li>
+                    <h3>ESB客户收益接口、单位持仓成本接口</h3>
+                    <p>客户通过直销APP/微信/官网打开客户资产页面，会调用ESB接口计算客户当日收益、累计收益和单位持仓成本等客户资产变动情况；按照业务人员提供的客户收益和单位持仓成本计算规则，结合不同基金计算方法和ta系统导库规则，落地所需基础数据，开发收益及单位持仓成本查询脚本，供直销接口调用</p>
+                </li>
+                <li>
+                    <h3>星环大数据平台数据仓库迁移及重构</h3>
+                    <p>从ORACLE向星环大数据平台迁移数据仓库相关表结构和存储过程，创建HIVE ORC表并进行存储过程改造和测试，使其能在星环Inceptor（基于Spark的分析引擎）上正常工作</p>
+                    <p>针对现有数据仓库，结合目前数据仓库运行效率、使用情况和现存问题，进行大数据平台数据仓库重构，落地全量客户到六要素的每日资产及收益数据，后续可应用于内部分析和客户资产查询</p>
+                </li>
+                <li>
+                    <h3>星环大数据平台灵活自助分析项目</h3>
+                    <p>提取常用业务分析指标，整合客户开户、持仓、交易、收益、费用贡献等常用主题数据，在星环大数据平台上进行计算并落地，并对接到业务系统进行报表展现，供业务人员在系统上进行灵活组合查询</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 </div>
 </body>
 
