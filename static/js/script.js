@@ -13,7 +13,10 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
-    $('.basicinfo').load("basicinfo.html"); //编辑控件失效了
+    // 加载公共页面
+    $('.side_bar').load("page/side_bar.html");
+    $('.efd_intro').load("page/efd_intro.html");
+    $('.efd_prog').load("page/efd_prog.html");
 
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
