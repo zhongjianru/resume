@@ -14,9 +14,9 @@ if (!String.prototype.format) {
 
 jQuery(document).ready(function($) {
     // 加载公共页面
-    $('.side_bar').load("page/side_bar.html");
-    $('.efd_intro').load("page/efd_intro.html");
-    $('.efd_prog').load("page/efd_prog.html");
+    $('.basic-info').load("page/basic_info.html");
+    $('.wb-prog').load("page/wb_prog.html");
+    $('.efd-prog').load("page/efd_prog.html");
 
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
